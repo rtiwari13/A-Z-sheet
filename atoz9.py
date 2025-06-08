@@ -7,11 +7,6 @@
 # 1 2
 # 1
 
-# plan for this night to tomorrow's afternoon 
-# - all night backend for ziplink 
-# - 2 hour dsa (maintaining streak for dsa ) 
-# - clustered list but (python,javascript, react , postgresSQL roadmaps from roadmap.sh)
-
 # 
 # 
 # Input Format: N = 6
