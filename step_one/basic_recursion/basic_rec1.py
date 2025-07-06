@@ -1,4 +1,4 @@
-# Print Numbers from 1 to N
+# Print Numbers 
 
 def print_no(n):
 
@@ -6,14 +6,13 @@ def print_no(n):
     if n==0:
         return
     
-    # tail recursion
-    print(n)
-    print_no(n-1)
-
-    # print("currently n is : ",n)
-    
-    # head recursion
-    # print_no(n-1)
+    # tail recursion n to 1
     # print(n)
+    # print_no(n-1)
+
+    
+    # head recursion 1 to n
+    print_no(n-1)
+    print(n)
 
 print_no(5)
