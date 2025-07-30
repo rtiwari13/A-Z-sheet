@@ -9,9 +9,14 @@
 # Input : nums = [5]
 # Output : 5
 
-# def appeared_once(nums):
-#     count = 0
-#     for i in range (len(nums)-1):
-#         nums[i]
-#         for j in range(len(nums)-1):
-    
+# any number XOR with itself is 0
+# a ^ 0 = a
+# a ^ a = 0
+
+def appeared_once(nums):
+    count = 0
+    for i in nums:     
+            count ^= i
+    return count
+        
+print(appeared_once([1, 2, 2, 4, 3, 1, 4]))
