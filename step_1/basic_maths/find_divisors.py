@@ -8,6 +8,8 @@
 # Input: n = 8
 # Output: [1, 2, 4, 8]
 
+
+# O(n)
 class Div:
     def find_divisor(self,n):
         print("Enter a number to find its divisior")
@@ -21,3 +23,6 @@ class Div:
 
 div_obj = Div()
 div_obj.find_divisor(0)
+
+# optimized
+
